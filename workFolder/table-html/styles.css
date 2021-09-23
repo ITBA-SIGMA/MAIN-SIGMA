@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFEFD5;
+}
+
+caption {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+table {
+    border: 1px solid grey;
+    text-align:center;
+    background-color: #FFFFE0;
+  } 
+
+  th,td{
+    border: 1px solid grey;
+    text-align:center;
+    padding:10px;
+ }
