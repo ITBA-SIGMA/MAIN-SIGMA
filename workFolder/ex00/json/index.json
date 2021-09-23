@@ -1,4 +1,4 @@
-squad_members: [
+{squad_members: [
   { 'position': 'наглядач', 'nickname': '} [][][] oleksa' },
   { 'position': 'лід скваду', 'nickname': '[][] oreznikov' },
   { 'position': 'зам лід сквад', 'nickname': '}[][]Evgen Doroshenko' },
@@ -10,4 +10,4 @@ squad_members: [
   { 'position': '', 'nickname': '[][]Alex Bugs' },
   { 'position': '', 'nickname': '[][]Andrii K' },
   { 'position': '', 'nickname': '[] Dmytro' },
-]
+]};
