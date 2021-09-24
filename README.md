@@ -9,7 +9,9 @@
 Main repository of squad SIGMA 𝝨
 
 # Members - 12
+
 |SKILL|NICKNAME|RANK|
+|-----|--------|----|
 |[][][]|оkobeliatsk Σ||
 |[][]|ohavrylenk Σ||
 |[][]|akovalenko Σ||
