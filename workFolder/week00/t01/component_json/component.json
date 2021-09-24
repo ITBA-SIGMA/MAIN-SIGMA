@@ -1,15 +1,15 @@
 {"squad_members": [
-    { "position": "наглядач", "nickname": "[][][] oleksa" },
-    { "position": "лід скваду", "nickname": "[][] oreznikov Σ" },
-    { "position": "зам лід сквад", "nickname": "[][] edoroshen Σ" },
-    { "position": "зам лід сквад", "nickname": "[][][] mbugel Σ" },
-    { "position": "", "nickname": "[][][] оkobeliatsk Σ" },
-    { "position": "", "nickname": "[][] ohavrylenk Σ" },
-    { "position": "", "nickname": "[][] akovalenko Σ" },
-    { "position": "", "nickname": "[][] mmaksym Σ" },
-    { "position": "", "nickname": "[][] aburnas Σ" },
-    { "position": "", "nickname": "[] dchumach Σ" },
-    { "position": "", "nickname": "[] mkonovec Σ" },
-    { "position": "", "nickname": "[] ysmola Σ" },
-    { "position": "", "nickname": "[] atkach Σ" }
+  { "position": "наглядач", "nickname": "[][][] oleksa" },
+  { "position": "лід скваду", "nickname": "[][] oreznikov Σ" },
+  { "position": "зам лід сквад", "nickname": "[][] edoroshen Σ" },
+  { "position": "зам лід сквад", "nickname": "[][][] mbugel Σ" },
+  { "position": "", "nickname": "[][][] оkobeliatsk Σ" },
+  { "position": "", "nickname": "[][] ohavrylenk Σ" },
+  { "position": "", "nickname": "[][] akovalenko Σ" },
+  { "position": "", "nickname": "[][] mmaksym Σ" },
+  { "position": "", "nickname": "[][] aburnas Σ" },
+  { "position": "", "nickname": "[] dchumach Σ" },
+  { "position": "", "nickname": "[] mkonovec Σ" },
+  { "position": "", "nickname": "[] ysmola Σ" },
+  { "position": "", "nickname": "[] atkach Σ" }
 ]}
