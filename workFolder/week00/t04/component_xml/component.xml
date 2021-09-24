@@ -1,38 +1,45 @@
-<squadmembers>
-  <squadmember>
-    <position>наглядач</position> <nickname>[][][] oleksa</nickname>
-  </squadmember>
-  <squadmember>
-    <position>лід скваду</position> <nickname>[][] oreznikov Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>зам лід сквад</position> <nickname>[][] edoroshen Σ"</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[][][] оkobeliatsk Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>зам лід сквад</position> <nickname>[][][] mbugel Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[][] mmaksym Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[] mkonovec Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[] atkach Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[][] aburnas Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[][] akovalenko Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[] dchumach Σ</nickname>
-  </squadmember>
-  <squadmember>
-    <position>squad_member</position> <nickname>[] lukash</nickname>
-  </squadmember>
-</squadmembers>
+<?xml version="1.0" encoding="UTF-8"?>
+<element attribute="value">
+
+    <childElement>
+        <squadmembers>
+            <squadmember>
+                <position>наглядач</position> <nickname>[][][] oleksa</nickname>
+            </squadmember>
+            <squadmember>
+                <position>лід скваду</position> <nickname>[][] oreznikov Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>зам лід сквад</position> <nickname>[][] edoroshen Σ"</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[][][] оkobeliatsk Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>зам лід сквад</position> <nickname>[][][] mbugel Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[][] mmaksym Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[] mkonovec Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[] atkach Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[][] aburnas Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[][] akovalenko Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[] dchumach Σ</nickname>
+            </squadmember>
+            <squadmember>
+                <position>squad_member</position> <nickname>[] lukash</nickname>
+            </squadmember>
+        </squadmembers>
+    </childElement>
+
+</element>
