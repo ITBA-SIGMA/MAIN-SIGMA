@@ -8,7 +8,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #FFEFD5;
+    background-color: #e7e3de;
 }
 
 caption {
@@ -20,8 +20,8 @@ caption {
 table {
     border: 1px solid grey;
     text-align:center;
-    background-color: #FFFFE0;
-  } 
+    background-color: #ececec;
+  }
 
   th,td{
     border: 1px solid grey;

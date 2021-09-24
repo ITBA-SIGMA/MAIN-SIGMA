@@ -1,14 +1,38 @@
 <squadmembers>
   <squadmember>
-    <position>наглядач</position> <nickname>} [][][] oleksa</nickname>
+    <position>наглядач</position> <nickname>[][][] oleksa</nickname>
   </squadmember>
   <squadmember>
     <position>лід скваду</position> <nickname>[][] oreznikov</nickname>
   </squadmember>
   <squadmember>
-    <position>зам лід сквад</position> <nickname>}[][]Evgen Doroshenko</nickname>
+    <position>зам лід сквад</position> <nickname>[][] Evgen Doroshenko</nickname>
   </squadmember>
   <squadmember>
-    <position>зам лід сквад</position> <nickname>}[][][] Max Bugel'</nickname>
+    <position>зам лід сквад</position> <nickname>[][][] Max Bugel'</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[][] Maksym Maksymenko</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[] Микола Коновець</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[] Odzemok Pavlo</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[] Anatolii Tkach</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[][] Alex Bugs</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[][] Andrii K</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[] Dmytro</nickname>
+  </squadmember>
+  <squadmember>
+    <position>squad_member</position> <nickname>[] Lukash</nickname>
   </squadmember>
 </squadmembers>
