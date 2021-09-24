@@ -1,7 +1,7 @@
 
 <p align="center">
     <a href="https://www.facebook.com/itbro.pro" target="_blank">
-        <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/SIGMAwallpaper.png?raw=true" height="100%">
+        <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/SIGMAwallpaper.png?raw=true">
     </a>
 </p>
 
