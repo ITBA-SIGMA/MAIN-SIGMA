@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="table.xslt"?>
+<table>
+  <cont>
+    <title>Повна назва</title>
+    <HTML>HyperText Markup Language</HTML>
+    <XML>eXtensible Markup Language</XML>
+    <MD>Markdown</MD>
+    <JSON>JavaScript Object Notation</JSON>
+  </cont>
+  <cont>
+    <title>На чому базується мова</title>
+    <HTML>Standard Generalized Markup Language</HTML>
+    <XML>Standard Generalized Markup Language</XML>
+    <MD>Багато ідей мови були запозичені з існуючих угод по розмітці тексту в електронних листах</MD>
+    <JSON>JavaScript</JSON>
+  </cont>
+  <cont>
+    <title>Для чого використовується</title>
+    <HTML>розмітка документів для перегляду веб-сторінок в браузері</HTML>
+    <XML>це виділена мова опису даних, яка використовується для зберігання даних</XML>
+    <MD>полегшена мова розмітки, створена з метою позначення форматування в простому тексті, з максимальним збереженням його читання людиною, і придатний для машинного перетворення в мови для просунутих публікацій</MD>
+    <JSON>використовується переважно для передачі структурованої інформації через мережу</JSON>
+  </cont>
+  <cont>
+    <title>Закриваючі теги</title>
+    <HTML>Обов'язкове застосування</HTML>
+    <XML>Застосування не обов'язкове</XML>
+    <MD>Не застосовується</MD>
+    <JSON>Застосовується</JSON>
+  </cont>
+  <cont>
+    <title>Підтримка коментарів</title>
+    <HTML>Присутня</HTML>
+    <XML>Присутня</XML>
+    <MD>Присутня</MD>
+    <JSON>Відсутня</JSON>
+  </cont>
+  <cont>
+    <title>Підтримка форматів</title>
+    <HTML>Підтримка багатьох форматів</HTML>
+    <XML>Підтримка багатьох форматів</XML>
+    <MD>.md</MD>
+    <JSON>utf-8</JSON>
+  </cont>
+  <cont>
+    <title>Підтримка масивів</title>
+    <HTML>Ні</HTML>
+    <XML>Ні</XML>
+    <MD>Ні</MD>
+    <JSON>Так</JSON>
+  </cont>
+  <cont>
+    <title>Підтримка пробілів</title>
+    <HTML>Не підтримує</HTML>
+    <XML>Може бути збережено</XML>
+    <MD>Не підтримує</MD>
+    <JSON>Не підтримує</JSON>
+  </cont>
+</table>
+
