@@ -8,19 +8,20 @@
 # ITBA-SIGMA
 Main repository of squad SIGMA 𝝨
 
-# Members - 12
+# Members - 13
 
 |SKILL|NICKNAME|RANK|
-|-----|--------|----|
+|-----:|--------|----|
 |[][][]|оkobeliatsk Σ||
-|[][]|ohavrylenk Σ||
 |[][]|akovalenko Σ||
-|[][]|oreznikov Σ|lead squad|
+|[][]|ohavrylenk Σ||
 |[][]|edoroshen Σ|°|
 |[]|mkonovec Σ||
 |[]|dchumach Σ||
 |[][]|mmaksym Σ||
+|[][]|oreznikov Σ|lead squad|
 |[][]|aburnas Σ||
-|[]|ysmola Σ||
 |;}[][][]|mbugel Σ|°|
+|[]|ysmola Σ||
 |[]|atkach Σ||
+|[][]|dsaiko Σ||

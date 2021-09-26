@@ -1,9 +1,15 @@
+<!--
+.dP"Y8 88  dP""b8 8b    d8    db      888888
+`Ybo." 88 dP   `" 88b  d88   dPYb      88__
+o.`Y8b 88 Yb  "88 88YbdP88  dP__Yb     88""
+8bodP' 88  YboodP 88 YY 88 dP""""Yb   888888
+-->
 # порівняльна табличка
 
-
+<p>
     <align="center">
         <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/image.png" alt="bird">
-
+</p>
 
 |Основа для порівняння|HTML|MARKDOWN|JSON|XSL|
 |--|:---------------:|:------------:|:------------:|:------------:|
