@@ -10,7 +10,7 @@
 
 Main repository of squad SIGMA 𝝨
 
-
+<p>
 <p align="left">
     <a href="https://www.facebook.com/itbro.pro" target="_blank">
         <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/sigma_sun.png?raw=true" height="230px">
