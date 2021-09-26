@@ -16,7 +16,7 @@ Main repository of squad SIGMA 𝝨
         <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/sigma_sun.png?raw=true" height="230px">
     </a>
 </p>
-###### Members - 13
+##### Members - 13
 
 |SKILL|NICKNAME|RANK|
 |-----:|--------|----|
