@@ -8,7 +8,7 @@ o.`Y8b 88 Yb  "88 88YbdP88  dP__Yb     88""
 
 <p>
     <align="center">
-        <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/image.png" alt="bird">
+        <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/image.png" alt="bird" weith="100">
 </p>
 
 |Основа для порівняння|HTML|MARKDOWN|JSON|XSL|

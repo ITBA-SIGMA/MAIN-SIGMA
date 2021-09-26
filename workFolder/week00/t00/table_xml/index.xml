@@ -1,10 +1,3 @@
-<!--
-.dP"Y8 88  dP""b8 8b    d8    db      888888
-`Ybo." 88 dP   `" 88b  d88   dPYb      88__
-o.`Y8b 88 Yb  "88 88YbdP88  dP__Yb     88""
-8bodP' 88  YboodP 88 YY 88 dP""""Yb   888888
--->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="table.xslt"?>
 <table>
@@ -65,3 +58,10 @@ o.`Y8b 88 Yb  "88 88YbdP88  dP__Yb     88""
     <JSON>Не підтримує</JSON>
   </cont>
 </table>
+
+<!--
+.dP"Y8 88  dP""b8 8b    d8    db      888888
+`Ybo." 88 dP   `" 88b  d88   dPYb      88__
+o.`Y8b 88 Yb  "88 88YbdP88  dP__Yb     88""
+8bodP' 88  YboodP 88 YY 88 dP""""Yb   888888
+-->
