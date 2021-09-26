@@ -4,12 +4,6 @@
 o.`Y8b 88 Yb  "88 88YbdP88  dP__Yb     88""
 8bodP' 88  YboodP 88 YY 88 dP""""Yb   888888
 -->
-# порівняльна табличка
-
-<p>
-    <align="center">
-        <img src="https://github.com/ITBA-SIGMA/MAIN-SIGMA/blob/main/helpMe/.gitpic/image.png" alt="bird" weith="100">
-</p>
 
 |Основа для порівняння|HTML|MARKDOWN|JSON|XSL|
 |--|:---------------:|:------------:|:------------:|:------------:|
