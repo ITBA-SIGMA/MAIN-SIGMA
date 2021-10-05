@@ -1,0 +1,42 @@
+.btn {
+	border-radius: 8px;
+	padding: 10px 16px;
+	line-height: 17px;
+	display: inline-block;
+	font-size: 1.4em;
+	text-align: center;
+	&.primary {
+		color: $btn-primary-color;
+		background: $btn-primary-bg-color;
+		border: 1px solid $btn-primary-bg-color;
+		&:hover {
+			background: $btn-primary-hover-bg;
+		}
+		&.disabled {
+			background: $btn-primary-disabled-bg-color;
+			color: $btn-primary-disabled-color;
+			border: 1px solid $btn-primary-disabled-bg-color;
+		}
+	}
+	&.secondary {
+		border: 1px solid $btn-primary-bg-color;
+		background: $white-color;
+		color: $btn-primary-bg-color;
+		&:hover {
+			background: $btn-secondary-hover-bg-color;
+			color: $btn-secondary-hover-color;
+		}
+	}
+	&.cancel-btn {
+		background: $btn-cancel-bg-color;
+		color: $btn-cancel-color;
+		border: 1px solid $btn-cancel-bg-color;
+		&:hover {
+			background: $btn-cancel-hover-bg-color;
+		}
+		&.disabled {
+			background: $btn-cancel-disabled-bg-color;
+			color: $btn-cancel-disabled-color;
+		}
+	}
+}
