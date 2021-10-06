@@ -8,6 +8,7 @@ const recompress = require('imagemin-jpeg-recompress');
 const pngquant = require('imagemin-pngquant');
 const bs = require('browser-sync');
 const plumber = require('gulp-plumber');
+const multiDest = require('gulp-multi-dest');
 
 module.exports = function rastr() {
 	return src('src/img/**/*.+(png|jpg|jpeg|gif|svg|ico)')
@@ -34,6 +35,6 @@ module.exports = function rastr() {
 				imagemin.optipng(),
 				imagemin.svgo()
 			], ), )
-		.pipe(dest('build/img'))
+		.pipe(multiDest(['build/img', './../../build/img']))
 		.pipe(bs.stream())
 }

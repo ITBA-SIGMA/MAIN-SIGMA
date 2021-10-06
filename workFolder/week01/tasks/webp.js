@@ -13,5 +13,5 @@ module.exports = function webp() {
 			extension: '.webp'
 		}))
 		.pipe(webpConv())
-		.pipe(multiDest(['src/img', 'build/img']))
+		.pipe(multiDest(['src/img', 'build/img', './../../build/img']))
 }

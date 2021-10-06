@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: /../../build/index.html
 ---
 
 <!-- зачаровано сквадом
