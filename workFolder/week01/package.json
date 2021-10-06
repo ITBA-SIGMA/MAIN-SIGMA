@@ -15,7 +15,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.5",
     "chalk": "^4.1.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -41,5 +41,8 @@
     "imagemin-pngquant": "^9.0.2",
     "require-dir": "^1.2.0",
     "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1"
   }
 }
