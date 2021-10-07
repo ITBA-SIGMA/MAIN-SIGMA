@@ -1,0 +1,33 @@
+#grid {
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    div {
+      height: 50px;
+      border: 1px solid;
+      width: 100%;
+      margin: 1%;
+      position: relative;
+      &:before {
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    @for $i from 1 through 12 {
+    div:nth-child(3n + #{$i}) {
+      background-color: lighten(gray, $i * 5%);
+      &:before {
+        content: '#{$i} col';
+      }
+    }
+  }
+  }
+}
