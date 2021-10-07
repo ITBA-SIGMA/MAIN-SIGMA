@@ -14,6 +14,7 @@ main {
   article {
     // height: 500px;
     border-bottom: 1px solid red;
+    max-width: 1200px;
   }
 }
 
@@ -26,4 +27,11 @@ main {
     background: white;
     color: #000;
   }
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  >div{ width: 30%; }
 }
