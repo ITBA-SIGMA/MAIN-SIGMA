@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #494444;
+    height: 30px;
+    span {
+        text-transform: uppercase;
+        color: #fff;
+        border-top: 1px solid #fff;
+    }
+}
