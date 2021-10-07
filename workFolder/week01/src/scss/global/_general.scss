@@ -27,3 +27,10 @@ main {
     color: #000;
   }
 }
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  >div{ width: 30%; }
+}
