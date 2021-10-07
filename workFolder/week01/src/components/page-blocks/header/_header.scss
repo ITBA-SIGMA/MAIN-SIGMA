@@ -1,3 +1,33 @@
-header {
-  background: red;
+.header{
+	background-color: rgb(73, 68, 68);
+	height: 85px;
+  .wrapper {
+    display: flex;
+	  flex-direction: row;
+	  justify-content: space-between;
+	  align-items: center; 
+  }
+}
+.logo {
+  width: 70px;
+  img {
+    width: 100%;
+  }
+}
+.hspac{
+	display: flex;
+	justify-content: space-between;
+	flex: 2;
+	margin-right: 40px;
+}
+.home, .services, .portfolio, .about, .contact{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.750em;
+	margin-left: 30px;
+}
+.home:hover, .services:hover,
+.portfolio:hover, .about:hover, .contact:hover{    
+    color: #968f8e; 
+    cursor: pointer;
 }

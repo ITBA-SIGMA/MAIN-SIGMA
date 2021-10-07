@@ -24,32 +24,48 @@
 
 
 <body id="theme" class="light-theme">
-	<header class="header">
-  <div class="wrapper">
-    <nav>
-      <a href="">item1</a>
-      <a href="">item2</a>
-      <a href="">item3</a>
-    </nav>
-  </div>
-</header>
-
-	<main class="main flex">
+  <header class="header">
+	<div class="wrapper">
+		<div class="logo">
+			<img src="img/IMG_1997.webp">
+		</div>
 		<nav>
+			<div class="hspac">
+				<div class="home">
+					<span>ГОЛОВНА</span>
+				</div>
+				<div class="services">
+					<span>СЕРВІСИ</span>
+				</div>
+				<div class="portfolio">
+					<span>ПОРТФОЛІО</span>
+				</div>
+				<div class="about">
+					<span>КОМАНДА</span>
+				</div>
+				<div class="contact">
+					<span>КОНТАКТИ</span>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+  <main class="main flex">
+   <nav class="left-sidebar">
   <a href="#typography">Typography</a>
   <a href="#buttons">Buttons</a>
   <a href="#grid">Grid</a>
-  <a href="#form">Form</a>
   <a href="#avatar">Avatar</a>
   <a href="#list">List</a>
+  <a href="#card">Card</a>
 </nav>
 
-		<section>
-			<article id="typography">
+    <section>
+      <article id="typography">
   <h2>Typography</h2>
 </article>
 
-			<article id="buttons">
+      <article id="buttons">
   <h2>Types of buttons</h2>
   <div>
     <code>Default</code>: default style for button
@@ -85,9 +101,27 @@
   
 </article>
 
-			_avatar.html
-
-			<ul class="circle square">
+      
+      <article id="avatar">
+	<h2>Avatar</h2>
+	<div>
+		<code>danger</code>: used for actions of risk, like deletion or authorization.
+		<button class="btn btn-danger btn-sm">Button1</button>
+	</div>
+	<div>
+		<code>primary</code>: default style for button
+		<button class="btn btn-primary btn-lg">Button2</button>
+	</div>
+	<div>
+		<code>disabled</code>: default style for button
+		<button class="btn btn-disabled btn-xl">Button3</button>
+	</div>
+	<div>
+		<code>secondary</code>: default style for button
+		<button class="btn btn-secondary">Button4</button>
+	</div>
+</article>
+      <ul class="circle square">
   <li>X</li>
   <li>XII</li>
   <li></li>
@@ -102,14 +136,14 @@
   <li>item5</li>
 </ol>
 
-			_card.html
+      _card.html
 
-		</section>
+    </section>
 
-	</main>
-	<footer class="footer"></footer>
+  </main>
+  <footer class="footer"></footer>
 
-	<script src="build/js/libs.min.js"></script>
+  <script src="build/js/libs.min.js"></script>
 <script src="build/js/main.min.js"></script>
 
 </body>
