@@ -12,9 +12,8 @@ main {
     width: calc(100% - 200px - 24px);
   }
   article {
-    // height: 500px;
     border-bottom: 1px solid red;
-    max-width: 1200px;
+    padding: 50px 20px;
   }
 }
 

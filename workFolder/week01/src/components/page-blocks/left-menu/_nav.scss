@@ -1,24 +1,24 @@
 .left-sidebar {
-    position:sticky;
-    top: 20px;
-    ul{
-        border-right: 1px solid gray;
-        padding: 20px;
-        li {
-            display: flex;
-            align-items: center;
-            list-style-type: none;
-            height: 50px;
-            font-size: 20px;
-            a{
-                width: 100%;
-                text-decoration: none;
-                user-select: none;
-                border: none;
-            }
-        }
+  position:sticky;
+  top: 20px;
+  ul{
+    border-right: 1px solid gray;
+    padding: 20px;
+    li {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      height: 50px;
+      font-size: 20px;
+      a{
+        width: 100%;
+        text-decoration: none;
+        user-select: none;
+        border: none;
+      }
     }
-    a:hover {
-        text-decoration: underline;
-    }
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
