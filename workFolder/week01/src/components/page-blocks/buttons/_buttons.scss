@@ -1,13 +1,76 @@
 .btn {
+  border-radius: 8px;
   padding: 10px;
-  border: 1px solid inherit;
-  border-radius: 4px;
-  &-primary {
-    background: blue;
-    color: white;
+  line-height: 17px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  transition: all .2s;
+
+  &:hover {
+    opacity: 0.7;
   }
+  //type of buttons
+  &.disabled {
+    cursor: no-drop;
+  }
+
+  &-primary {
+    color: #fff;
+    background: #1890ff;
+    border-color: #1890ff;
+    &.disabled {
+      background: rgba(#1890ff, .5);
+      border-color: rgba(#1890ff, .5);
+      color: #1890ff;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+
   &-secondary {
-    background: green;
-    color: red;
+    border-color: #f96652;
+    background: #fff;
+    color: #f96652;
+    &:hover {
+      background: #f96652;
+      color: #fff;
+    }
+    &.disabled {
+      background: rgba(#f96652, .5);
+      border-color: rgba(#f96652, .5);
+    }
+  }
+
+  &-cancel {
+    background: $btn-cancel-bg-color;
+    color: $btn-cancel-color;
+    border: 1px solid $btn-cancel-bg-color;
+    &:hover {
+      background: $btn-cancel-hover-bg-color;
+    }
+    &.disabled {
+      background: $btn-cancel-disabled-bg-color;
+      color: $btn-cancel-disabled-color;
+    }
+  }
+  //size of buttons
+  &-sm {
+    padding: 5px;
+    font-size: 10px;
+  }
+  &-lg {
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+}
+
+#buttons {
+  div {
+    padding: 10px;
   }
 }
