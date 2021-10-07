@@ -1,3 +1,29 @@
 main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  nav {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    width: calc(100% - 200px - 24px);
+  }
+  article {
+    height: 500px;
+    border-bottom: 1px solid red;
+  }
+}
 
+#theme {
+  .dark-theme {
+    color: white;
+    background: #000;
+  }
+  .light-theme {
+    background: white;
+    color: #000;
+  }
 }

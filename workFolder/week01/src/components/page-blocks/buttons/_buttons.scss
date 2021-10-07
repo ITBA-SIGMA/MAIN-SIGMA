@@ -1,0 +1,13 @@
+.btn {
+  padding: 10px;
+  border: 1px solid inherit;
+  border-radius: 4px;
+  &-primary {
+    background: blue;
+    color: white;
+  }
+  &-secondary {
+    background: green;
+    color: red;
+  }
+}
