@@ -1,19 +1,13 @@
-.avatar-circle {
-    width: 90px;
-    margin: 10px;
-}
-
-.avatar-square {
-    width: 90px;
-    margin: 10px;
-}
-
-.lg {
+.avatar {
+  width: 90px;
+  margin: 10px;
+  &.lg {
     width: 70px;
-}
-.md {
+  }
+  &.md {
     width: 50px;
-}
-.sm {
+  }
+  &.sm {
     width: 30px;
+  }
 }
