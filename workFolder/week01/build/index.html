@@ -2,25 +2,26 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-				content="width=device-width, initial-scale=1.0">
-	<meta name="description"
-				content="SIGMA-SQUAD html/css template for new user">
-	<meta name="keywords"
-				content="">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.webp"
-				type="image/webp">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.png"
-				type="image/x-icon">
-	<link rel="stylesheet"
-				href="css/libs.min.css">
-	<link rel="stylesheet"
-				href="css/style.min.css">
-	<title>SIGMA-SQUAD</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="SIGMA-SQUAD html/css template for new user">
+  <meta name="keywords"
+        content="">
+  <link rel="shortcut icon"
+        href="img/favicons/favicon.webp"
+        type="image/webp">
+  <link rel="shortcut icon"
+        href="img/favicons/favicon.png"
+        type="image/x-icon">
+  <link rel="stylesheet"
+        href="css/libs.min.css">
+  <link rel="stylesheet"
+        href="css/style.min.css">
+  <title>SIGMA-SQUAD</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 
@@ -55,7 +56,9 @@
   <main class="main flex">
    <nav class="left-sidebar">
   <ul>
+    <li><a href="#hero">Hero</a></li>
     <li><a href="#typography">Typography</a></li>
+    <li><a href="#blockquote">Blockquote</a></li>
     <li><a href="#buttons">Buttons</a></li>
     <li><a href="#grid">Grid</a></li>
     <li><a href="#avatar">Avatar</a></li>
@@ -66,6 +69,17 @@
 </nav>
 
     <section>
+      <div id="hero" class="hero">
+  <div class="wrapper">
+    <h1>Hero block</h1>
+  </div>
+</div>
+<article>
+  <div class="wrapper">
+    <p>The hero banner area is the area of the page between the navigation and the start of your content. The hero banner is often an image, but it doesn't have to be. It serves as the starting point for your page and its contents should orient the user to the content on the rest of the page.</p>
+  </div>
+</article>
+
       <article id="typography">
   <h2>Typography</h2>
   <p>Basic text writing, including headings, body text, lists, and more.</p>
@@ -89,6 +103,23 @@
   <p class="ellipsis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius odio, eos dolorem accusantium natus magni repellendus dignissimos nemo saepe minus ex sit libero doloribus officia dolore totam sed, neque deleniti numquam quidem. Similique amet minus numquam quam ipsum odio, molestias molestiae velit quos voluptas esse repellendus maxime beatae et voluptatem!</p>
   <h4>Clip</h4>
   <p class="clip">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius odio, eos dolorem accusantium natus magni repellendus dignissimos nemo saepe minus ex sit libero doloribus officia dolore totam sed, neque deleniti numquam quidem. Similique amet minus numquam quam ipsum odio, molestias molestiae velit quos voluptas esse repellendus maxime beatae et voluptatem!</p>
+</article>
+
+      <article id="blockquote">
+  <h2>Blockquote</h2>
+  <h3>Default blockquote</h3>
+  <blockquote class="blockquote">
+    <p class="">“The default style of block quotes really just makes an adjustment to font-sizing as well as the footer text.”</p>
+    <footer class="blockquote-footer"><span class="material-icons">minimize</span>This is the footer</footer>
+  </blockquote>
+
+  <h3>Custom blockquote</h3>
+  <blockquote class="blockquote blockquote-custom">
+    <span class="material-icons">format_quote</span>
+    <p class="text-italic">The additional quote bar on the top and bottom highlight the quote clearly as a quotation and help the quote stand out more than the default styling.</p>
+    <footer class="blockquote-footer text-right"><span class="material-icons">minimize</span>Author Name<br>Title</footer>
+    <span class="material-icons">format_quote</span>
+  </blockquote>
 </article>
 
       <article id="buttons">
@@ -162,22 +193,23 @@
 </article>
 
       <article id="avatar">
-	<h2>Avatar</h2>
-	<div>
-		<img class="avatar-circle" src="img/avatar_circle.webp">
-		<img class="avatar-circle lg" src="img/avatar_circle.webp">
-		<img class="avatar-circle md" src="img/avatar_circle.webp">
-		<img class="avatar-circle sm"src="img/avatar_circle.webp">
-	</div>
-	<div>
-		<img class="avatar-square" src="img/avatar_square.webp">
-		<img class="avatar-square lg" src="img/avatar_square.webp">
-		<img class="avatar-square md" src="img/avatar_square.webp">
-		<img class="avatar-square sm"src="img/avatar_square.webp">
-		<h3>Basic</h3>
-		<p>Three sizes are avilable</p>
-	</div>
+  <h2>Avatar</h2>
+  <div>
+    <img class="avatar-circle" src="img/avatar_circle.webp">
+    <img class="avatar-circle lg" src="img/avatar_circle.webp">
+    <img class="avatar-circle md" src="img/avatar_circle.webp">
+    <img class="avatar-circle sm"src="img/avatar_circle.webp">
+  </div>
+  <div>
+    <img class="avatar-square" src="img/avatar_square.webp">
+    <img class="avatar-square lg" src="img/avatar_square.webp">
+    <img class="avatar-square md" src="img/avatar_square.webp">
+    <img class="avatar-square sm"src="img/avatar_square.webp">
+    <h3>Basic</h3>
+    <p>Three sizes are avilable</p>
+  </div>
 </article>
+
       <article id="list">
   <h2>List</h2>
   <div class="content-wrapper">
@@ -324,7 +356,6 @@
 
   <script src="build/js/libs.min.js"></script>
 <script src="build/js/main.min.js"></script>
-
 
 </body>
 </html>

@@ -6,7 +6,6 @@
     padding: 10px 0;
     align-items: flex-start;
     justify-content: space-between;
-
     .col {
       flex-basis: 0;
       -webkit-box-flex: 1;
@@ -29,12 +28,12 @@
       }
     }
     @for $i from 1 through 12 {
-    div:nth-child(3n + #{$i}) {
-      background-color: lighten(gray, $i * 5%);
-      &:before {
-        content: '#{$i} col';
+      div:nth-child(3n + #{$i}) {
+        background-color: lighten(red, $i * 2%);
+        &:before {
+          content: '#{$i} col';
+        }
       }
     }
-  }
   }
 }
