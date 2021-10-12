@@ -1,0 +1,17 @@
+.hero {
+  height: 300px;
+  background: linear-gradient(90deg, rgb(36, 114, 181) 0%, rgb(56, 70, 96) 100%);
+  min-height: 97px;
+  .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+  }
+}

@@ -9,6 +9,6 @@ const multiDest = require('gulp-multi-dest');
 module.exports = function html() {
   return src(['src/**/*.html', '!src/components/**/*.html'])
     .pipe(include())
-    .pipe(multiDest(['build', './../../build']))
+    .pipe(multiDest(['build', './../../../build']))
     .pipe(bs.stream())
 }

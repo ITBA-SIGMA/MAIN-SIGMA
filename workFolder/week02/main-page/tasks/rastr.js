@@ -35,6 +35,6 @@ module.exports = function rastr() {
         imagemin.optipng(),
         imagemin.svgo()
       ], ), )
-    .pipe(multiDest(['build/img', './../../build/img']))
+    .pipe(multiDest(['build/img', './../../../build/img']))
     .pipe(bs.stream())
 }

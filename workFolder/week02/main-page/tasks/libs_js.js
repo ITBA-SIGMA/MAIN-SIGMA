@@ -15,7 +15,7 @@ module.exports = function libs_js(done) {
       .pipe(uglify())
       .pipe(concat('libs.min.js'))
       .pipe(map.write('../sourcemaps'))
-      .pipe(multiDest(['build/js/', './../../build/js/']))
+      .pipe(multiDest(['build/js/', './../../../build/js/']))
   else {
     return done(console.log(chalk.redBright('No added JS plugins')));
   }

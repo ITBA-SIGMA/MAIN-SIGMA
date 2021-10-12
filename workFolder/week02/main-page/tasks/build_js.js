@@ -14,5 +14,5 @@ module.exports = function build_js() {
       presets: ['@babel/env']
     }))
     .pipe(concat('main.min.js'))
-    .pipe(multiDest(['build/js/', './../../build/js/']))
+    .pipe(multiDest(['build/js/', './../../../build/js/']))
 }
