@@ -1,17 +1,9 @@
 #grid {
+  h2, h3 {
+    text-align: center;
+  }
   .row {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 10px 0;
-    align-items: flex-start;
-    &.justify-content-between {
-      justify-content: space-between;
-    }
-    &.justify-content-center {
-      justify-content: center;
-    }
-    div {
+    [class^="col-"] {
       height: 50px;
       border: 1px solid;
       // margin: 1%;
@@ -25,16 +17,29 @@
       // }
     }
     @for $i from 1 through 12 {
-      div:nth-child(3n + #{$i}) {
+      [class^="col-"]:nth-child(3n + #{$i}) {
         background-color: lighten(gray, $i * 5%);
-        // &:before {
-        //   content: '#{$i} col';
-        // }
       }
     }
   }
 }
 
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+  align-items: flex-start;
+  &.justify-content-between {
+    justify-content: space-between;
+  }
+  &.justify-content-center {
+    justify-content: center;
+  }
+  &.justify-content-end {
+    justify-content: flex-end;
+  }
+}
 .col-1 {
   -webkit-box-flex: 0;
   flex: 0 0 8.333333%;
@@ -106,7 +111,6 @@
   flex: 0 0 100%;
   max-width: 100%;
 }
-
 
 .offset-1 {
   margin-left: 8.333333%;
