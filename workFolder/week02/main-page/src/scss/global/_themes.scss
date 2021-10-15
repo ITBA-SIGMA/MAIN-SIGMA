@@ -1,0 +1,17 @@
+/* Stylesheet 1: */
+body#theme{
+    font: 100% Lucida Sans, Verdana;
+    a {
+        color: inherit;
+    }
+
+    &.dark-theme {
+        color: $white-color;
+        background: $black-color;
+    }
+    
+    &.light-theme {
+        background: $white-color;
+        color: $black-color;
+    }
+}

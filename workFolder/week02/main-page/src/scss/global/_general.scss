@@ -1,8 +1,10 @@
 main {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  .wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
   nav {
     max-width: 200px;
     display: flex;
@@ -14,17 +16,6 @@ main {
   article {
     border-bottom: 1px solid red;
     padding: 50px 20px;
-  }
-}
-
-#theme {
-  .dark-theme {
-    color: white;
-    background: #000;
-  }
-  .light-theme {
-    background: white;
-    color: #000;
   }
 }
 

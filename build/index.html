@@ -26,34 +26,40 @@
 
 <body id="theme" class="light-theme">
   <header class="header">
-  <div class="wrapper">
     <div class="logo">
       <img src="img/IMG_1997.webp">
     </div>
-    <nav>
-      <div class="hspac">
-        <div class="home">
-          <span>ГОЛОВНА</span>
-        </div>
-        <div class="services">
-          <span>СЕРВІСИ</span>
-        </div>
-        <div class="portfolio">
-          <span>ПОРТФОЛІО</span>
-        </div>
-        <div class="about">
-          <span>КОМАНДА</span>
-        </div>
-        <div class="contact">
-          <span>КОНТАКТИ</span>
-        </div>
-      </div>
+    <nav class="navSite">
+      <ul>
+        <li>
+          <a href="#">main</a>
+        </li>
+        <li>
+          <a href="#">services</a>
+        </li>
+        <li>
+          <a href="#">portfolio</a>
+        </li>
+        <li>
+          <a href="#">about</a>
+        </li>
+        <li>
+          <a href="#">contacts</a>
+        </li>
+      </ul>
     </nav>
-  </div>
 </header>
-
+  <div class="switch_wrapper">
+  <ul class="menulist">
+    <li class="menuitem" data-style="light-theme">light-theme
+    </li>
+    <li class="menuitem" data-style="dark-theme">dark-theme
+    </li>
+  </ul>
+</div>
   <main class="main flex">
-   <nav class="left-sidebar">
+    <div class="wrapper">
+      <nav class="left-sidebar">
   <ul>
     <li><a href="#hero">Hero</a></li>
     <li><a href="#typography">Typography</a></li>
@@ -68,8 +74,8 @@
   </ul>
 </nav>
 
-    <section>
-      <div id="hero" class="hero">
+      <section>
+        <div id="hero" class="hero">
   <div class="wrapper">
     <h1>Hero block</h1>
   </div>
@@ -80,7 +86,7 @@
   </div>
 </article>
 
-      <article id="typography">
+        <article id="typography">
   <h2>Typography</h2>
   <p>Basic text writing, including headings, body text, lists, and more.</p>
 
@@ -105,7 +111,7 @@
   <p class="clip">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius odio, eos dolorem accusantium natus magni repellendus dignissimos nemo saepe minus ex sit libero doloribus officia dolore totam sed, neque deleniti numquam quidem. Similique amet minus numquam quam ipsum odio, molestias molestiae velit quos voluptas esse repellendus maxime beatae et voluptatem!</p>
 </article>
 
-      <article id="blockquote">
+        <article id="blockquote">
   <h2>Blockquote</h2>
   <h3>Default blockquote</h3>
   <blockquote class="blockquote">
@@ -122,7 +128,7 @@
   </blockquote>
 </article>
 
-      <article id="buttons">
+        <article id="buttons">
   <h2>Types of buttons</h2>
   <div>
     <code>Default</code>: default style for button
@@ -158,7 +164,7 @@
   
 </article>
 
-      <article id="grid">
+        <article id="grid">
     <h2>Grid</h2>
     <div class="w-100">
       <h3>12 columns</h3>
@@ -252,7 +258,7 @@
     </div>
 </article>
 
-      <article id="avatar">
+        <article id="avatar">
   <h2>Avatar</h2>
   <div>
     <img class="avatar avatar-circle" src="img/avatar_circle.webp">
@@ -270,7 +276,7 @@
   </div>
 </article>
 
-      <article id="list">
+        <article id="list">
   <h2>List</h2>
   <div class="content-wrapper">
     <div>
@@ -342,7 +348,7 @@
   </div>
 </article>
 
-      <article id="card">
+        <article id="card">
   <h2>Card</h2>
   <div class="row">
     <div class="col-4">
@@ -369,7 +375,7 @@
   </div>
 </article>
 
-      <article id="figure">
+        <article id="figure">
   <h2>The figure and figcaption element</h2>
 
   <figure>
@@ -378,7 +384,7 @@
   </figure>
 </article>
 
-      <article id="gallery">
+        <article id="gallery">
   <h2>Gallery</h2>
   <div class="gallery-wrapper">
     <figure class="gallery-col-1 gallery-row-2">
@@ -408,8 +414,8 @@
   </div>
 </article>
 
-    </section>
-
+      </section>
+    </div>
   </main>
   <div class="footer-basic">
   <footer>
@@ -432,9 +438,10 @@
  </footer>
 </div>
 
-  <script src="build/js/libs.min.js"></script>
-<script src="build/js/main.min.js"></script>
+  <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
 
 
 </body>
+
 </html>
