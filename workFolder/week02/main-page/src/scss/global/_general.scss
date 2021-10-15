@@ -17,6 +17,17 @@ main {
     border-bottom: 1px solid red;
     padding: 50px 20px;
   }
+  @media screen and (max-width: 739px) {
+    .wrapper {
+        justify-content: center;
+    }
+    section {
+      width: 100%;
+      h3 {
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 .content-wrapper {

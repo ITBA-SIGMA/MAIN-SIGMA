@@ -1,0 +1,14 @@
+@media screen and (max-width: 739px) {
+    .left-sidebar {
+        display: none;
+    }
+    .wrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .mobSpace {
+        display: none;
+    }
+}

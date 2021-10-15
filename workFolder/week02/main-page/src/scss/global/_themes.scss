@@ -8,6 +8,9 @@ body#theme{
     &.dark-theme {
         color: $white-color;
         background: $black-color;
+        .navMobile a {
+            color: #000;
+        }
     }
     
     &.light-theme {
