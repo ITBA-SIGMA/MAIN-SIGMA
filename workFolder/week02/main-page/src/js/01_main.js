@@ -1,5 +1,5 @@
-//function for class change
-const btns = document.querySelectorAll(".menulist li");
+//theme changing
+const btns = document.querySelectorAll(".menuList li");
 
 for (i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", reStyle);
