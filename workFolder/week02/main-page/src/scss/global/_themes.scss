@@ -10,6 +10,7 @@ body#theme{
     &.dark-theme {
         color: #84c754;
         background: $black-color;
+        font: 100% Courier New;
         .navMobile a {
             color: #000;
         }
