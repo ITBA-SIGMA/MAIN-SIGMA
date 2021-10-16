@@ -1,8 +1,4 @@
 .switchWrapper {
-    .menuList {
-        display: flex;
-        list-style-type: none;
-        li {
             span {
                 margin: 10px;
                 color: $white-color;
@@ -16,16 +12,12 @@
                     max-width: 100%;
                     border-radius: 10px;
                 }
-                .sun:hover {
-                    box-shadow: 0 0 30px rgba(247, 182, 4, 0.5);
-                }
-                .moon:hover {
-                    box-shadow: 0 0 30px rgba(2, 115, 245, 0.5);
+                .toogler:hover {
+                    box-shadow: 0 0 50px rgb(240, 245, 244);
                 }
             }
             &:nth-child(2n){
                 border-left: 1px solid $border-color;
             }
-        }
-    }
+   
 }   
