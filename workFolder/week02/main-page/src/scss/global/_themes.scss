@@ -1,20 +1,20 @@
 /* Stylesheet 1: */
 body#theme{
     font: 100% Lucida Sans, Verdana;
+    background: $white-color;
+    color: $black-color;
     a {
         color: inherit;
     }
 
     &.dark-theme {
-        color: $white-color;
+        color: #84c754;
         background: $black-color;
+        font: 100% Courier New;
         .navMobile a {
             color: #000;
         }
     }
     
-    &.light-theme {
-        background: $white-color;
-        color: $black-color;
-    }
+
 }

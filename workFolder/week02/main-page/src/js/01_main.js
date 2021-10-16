@@ -1,5 +1,5 @@
 //theme changing
-const btns = document.querySelectorAll(".menuList li");
+/*const btns = document.querySelectorAll(".menuList li");
 
 for (i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", reStyle);
@@ -10,4 +10,9 @@ function reStyle(){
         document.getElementById("theme").className = '';
         document.getElementById("theme").classList.add(this.getAttribute("data-style"));
     }
-}
+} */
+
+function reStyle() {
+    var element = document.body;
+    element.classList.toggle("dark-theme");
+ }
