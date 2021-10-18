@@ -88,6 +88,7 @@
                 <a href="#figure">Figure</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#carousel">Carousel</a>
+                <a href="#modalGallery">Modal gallery</a>
             </li>
         </ul>
     </div>
@@ -112,6 +113,7 @@
     <li><a href="#figure">Figure</a></li>
     <li><a href="#gallery">Gallery</a></li>
     <li><a href="#carousel">Carousel</a></li>
+    <li><a href="#modalGallery">Modal gallery</a></li>
   </ul>
 </nav>
 
@@ -940,6 +942,194 @@
             <span class="dot" onclick="currentSlide(4)"></span>
         </div>
     </article>         
+            </script>
+        </code>
+    </pre>
+</article>
+        <article id="modalGallery">
+    <h2>Modal gallery</h2>
+    <div class="galery">
+        <div class="gallWin">
+            <img src="img/galery/pexels-christina-morillo-1181703.webp"
+                onclick="openModal();currentImg(1)" class="hover-shadow cursor">
+        </div>
+        <div class="gallWin">
+            <img src="img/galery/code.webp" onclick="openModal();currentImg(1)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="gallWin">
+            <img src="img/galery/hard-working.webp" onclick="openModal();currentImg(2)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="gallWin">
+            <img src="img/galery/learning.webp" onclick="openModal();currentImg(3)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="gallWin">
+            <img src="img/galery/pexels-mikhail-nilov-7989147.webp"
+                onclick="openModal();currentImg(4)" class="hover-shadow cursor">
+        </div>
+        <div class="gallWin">
+            <img src="img/galery/pexels-team.webp" onclick="openModal();currentImg(5)"
+                class="hover-shadow cursor">
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="openModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="myImgSlides">
+                <div class="numTxt">1 / 6</div>
+                <img src="img/galery/pexels-christina-morillo-1181703.webp" style="width:100%">
+            </div>
+
+            <div class="myImgSlides">
+                <div class="numTxt">2 / 6</div>
+                <img src="img/galery/code.webp" style="width:100%">
+            </div>
+            <div class="myImgSlides">
+                <div class="numTxt">3 / 6</div>
+                <img src="img/galery/hard-working.webp" style="width:100%">
+            </div>
+            <div class="myImgSlides">
+                <div class="numTxt">4 / 6</div>
+                <img src="img/galery/learning.webp" style="width:100%">
+            </div>
+            <div class="myImgSlides">
+                <div class="numTxt">5 / 6</div>
+                <img src="img/galery/pexels-mikhail-nilov-7989147.webp" style="width:100%">
+            </div>
+            <div class="myImgSlides">
+                <div class="numTxt">6 / 6</div>
+                <img src="img/galery/pexels-team.webp" style="width:100%">
+            </div>
+
+            <a class="prevLeft" onclick="plusImg(-1)">&#10094;</a>
+            <a class="nextRight" onclick="plusImg(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="img/galery/pexels-christina-morillo-1181703.webp" style="width:100%"
+                    onclick="currentImg(1)" alt="1">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/galery/code.webp" style="width:100%" onclick="currentImg(2)" alt="2">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/galery/hard-working.webp" style="width:100%" onclick="currentImg(3)"
+                    alt="3">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/galery/learning.webp" style="width:100%" onclick="currentImg(4)"
+                    alt="4">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/galery/pexels-mikhail-nilov-7989147.webp" style="width:100%"
+                    onclick="currentImg(5)" alt="5">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/galery/pexels-team.webp" style="width:100%" onclick="currentImg(6)"
+                    alt="6">
+            </div>
+        </div>
+    </div>
+    <pre>
+        <code class="language-markup">
+            <script type="prism-html-css">
+        <article id="modalGallery">
+            <h2>Modal gallery</h2>
+            <div class="galery">
+                <div class="gallWin">
+                    <img src="img/galery/pexels-christina-morillo-1181703.webp"
+                        onclick="openModal();currentImg(1)" class="hover-shadow cursor">
+                </div>
+                <div class="gallWin">
+                    <img src="img/galery/code.webp" onclick="openModal();currentImg(1)"
+                        class="hover-shadow cursor">
+                </div>
+                <div class="gallWin">
+                    <img src="img/galery/hard-working.webp" onclick="openModal();currentImg(2)"
+                        class="hover-shadow cursor">
+                </div>
+                <div class="gallWin">
+                    <img src="img/galery/learning.webp" onclick="openModal();currentImg(3)"
+                        class="hover-shadow cursor">
+                </div>
+                <div class="gallWin">
+                    <img src="img/galery/pexels-mikhail-nilov-7989147.webp"
+                        onclick="openModal();currentImg(4)" class="hover-shadow cursor">
+                </div>
+                <div class="gallWin">
+                    <img src="img/galery/pexels-team.webp" onclick="openModal();currentImg(5)"
+                        class="hover-shadow cursor">
+                </div>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="openModal()">&times;</span>
+                <div class="modal-content">
+        
+                    <div class="myImgSlides">
+                        <div class="numTxt">1 / 6</div>
+                        <img src="img/galery/pexels-christina-morillo-1181703.webp" style="width:100%">
+                    </div>
+        
+                    <div class="myImgSlides">
+                        <div class="numTxt">2 / 6</div>
+                        <img src="img/galery/code.webp" style="width:100%">
+                    </div>
+                    <div class="myImgSlides">
+                        <div class="numTxt">3 / 6</div>
+                        <img src="img/galery/hard-working.webp" style="width:100%">
+                    </div>
+                    <div class="myImgSlides">
+                        <div class="numTxt">4 / 6</div>
+                        <img src="img/galery/learning.webp" style="width:100%">
+                    </div>
+                    <div class="myImgSlides">
+                        <div class="numTxt">5 / 6</div>
+                        <img src="img/galery/pexels-mikhail-nilov-7989147.webp" style="width:100%">
+                    </div>
+                    <div class="myImgSlides">
+                        <div class="numTxt">6 / 6</div>
+                        <img src="img/galery/pexels-team.webp" style="width:100%">
+                    </div>
+        
+                    <a class="prevLeft" onclick="plusImg(-1)">&#10094;</a>
+                    <a class="nextRight" onclick="plusImg(1)">&#10095;</a>
+        
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+        
+                    <div class="column">
+                        <img class="demo cursor" src="img/galery/pexels-christina-morillo-1181703.webp" style="width:100%"
+                            onclick="currentImg(1)" alt="1">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/galery/code.webp" style="width:100%" onclick="currentImg(2)" alt="2">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/galery/hard-working.webp" style="width:100%" onclick="currentImg(3)"
+                            alt="3">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/galery/learning.webp" style="width:100%" onclick="currentImg(4)"
+                            alt="4">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/galery/pexels-mikhail-nilov-7989147.webp" style="width:100%"
+                            onclick="currentImg(5)" alt="5">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/galery/pexels-team.webp" style="width:100%" onclick="currentImg(6)"
+                            alt="6">
+                    </div>
+                </div>
+            </div>
+        </article>
             </script>
         </code>
     </pre>
