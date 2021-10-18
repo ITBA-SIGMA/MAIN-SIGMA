@@ -68,4 +68,101 @@
       </ol>
     </div>
   </div>
+  <pre>
+    <code class="language-markup">
+      <script type="prism-html-css">
+      <article id="list">
+        <h2>List</h2>
+        <div class="content-wrapper">
+          <div>
+            <h3>Unordered list default</h3>
+            <hr>
+            <ul class="">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+              <li>list item 4</li>
+              <li>list item 5</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Unordered list circle</h3>
+            <hr>
+            <ul class="circle">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+              <li>list item 4</li>
+              <li>list item 5</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Unordered list square</h3>
+            <hr>
+            <ul class="square">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+              <li>list item 4</li>
+              <li>list item 5</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Ordered list default</h3>
+            <hr>
+            <ol>
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+              <li>list item 4</li>
+              <li>list item 5</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Ordered list roman</h3>
+            <hr>
+            <ol class="roman">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+              <li>list item 4</li>
+              <li>list item 5</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Ordered list alpha</h3>
+            <hr>
+            <ol class="alpha">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+              <li>list item 4</li>
+              <li>list item 5</li>
+            </ol>
+          </div>
+        </div>
+      </article>
+  
+      //SCSS
+  
+      ul {
+        &.circle {
+          list-style-type: circle;
+        }
+        &.square {
+          list-style-type: square;
+        }
+      }
+      
+      ol {
+        &.roman {
+          list-style-type: upper-roman;
+        }
+        &.alpha {
+          list-style-type: lower-alpha;
+        }
+      }    
+    </script>
+    </code>
+  </pre>
 </article>
