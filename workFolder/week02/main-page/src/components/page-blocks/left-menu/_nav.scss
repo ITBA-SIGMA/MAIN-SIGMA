@@ -4,6 +4,11 @@
   top: 10px;
   overflow: scroll;
   height: 600px;
+  &::-webkit-scrollbar-track {border-radius: 4px;}
+
+  &::-webkit-scrollbar {width: 6px;}
+
+  &::-webkit-scrollbar-thumb {border-radius: 4px;background: #C0C0C0;}
   ul{
     border-right: 1px solid gray;
     padding: 20px;

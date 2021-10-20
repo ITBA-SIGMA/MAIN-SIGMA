@@ -14,6 +14,17 @@ body#theme{
         .navMobile a {
             color: #000;
         }
+        .form {
+            .textarea, 
+            .text-input {
+              border-bottom-color: rgba(255,255,255, 0.6);
+            }
+            .button {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+              
     }
     
 
