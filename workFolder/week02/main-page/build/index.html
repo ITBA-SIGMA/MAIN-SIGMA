@@ -108,6 +108,7 @@
     <li><a href="#list">List</a></li>
     <li><a href="#card">Card</a></li>
     <li><a href="#figure">Figure</a></li>
+    <li><a href="#form">Form</a></li>
     <li><a href="#gallery">Gallery</a></li>
   </ul>
 </nav>
@@ -422,6 +423,28 @@
   </figure>
 </article>
 
+        <article id='form'>
+	<h2>Form</h2>
+	<div class='content-wrapper'>
+		<form class='form'>
+			<p class='field required half'>
+	      <label class='label required' for='name'>Name</label>
+	      <input class='text-input' id='name' name='name' required type='text'>
+	    </p>
+	    <p class='field required half'>
+	      <label class='label' for='email'>E-mail</label>
+	      <input class='text-input' id='email' name='email' required type='email'>
+	    </p>
+	    <p class='field'>
+	      <label class='label' for='message'>Message</label>
+	      <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
+	    </p>
+	    <p class='field'>
+	      <input class='button' type='submit' value='Send message'>
+	    </p>
+		</form>
+	</div>
+</article>
         <article id="gallery">
   <h2>Gallery</h2>
   <div class="gallery-wrapper">
