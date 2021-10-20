@@ -106,6 +106,7 @@
     <li><a href="#typography">Typography</a></li>
     <li><a href="#buttons">Buttons</a></li>
     <li><a href="#blockquote">Blockquote</a></li>
+    <li><a href="#flex">Flexbox</a></li>
     <li><a href="#grid">Grid</a></li>
     <li><a href="#avatar">Avatar</a></li>
     <li><a href="#list">List</a></li>
@@ -334,11 +335,11 @@
     </code>
   </pre>
 </article>
-        <article id="grid">
-    <h2>Grid</h2>
+        <article id="flex">
+    <h2>Grid: flex</h2>
     <div class="w-100">
       <h3>12 columns</h3>
-      <div class="row">
+      <div class="row-flex">
         <div class="col-1"></div>
         <div class="col-1"></div>
         <div class="col-1"></div>
@@ -355,7 +356,7 @@
     </div>
     <div class="w-100">
       <h3>6 columns</h3>
-      <div class="row">
+      <div class="row-flex">
         <div class="col-2"></div>
         <div class="col-2"></div>
         <div class="col-2"></div>
@@ -366,7 +367,7 @@
     </div>
     <div class="w-100">
       <h3>4 columns</h3>
-      <div class="row">
+      <div class="row-flex">
         <div class="col-3"></div>
         <div class="col-3"></div>
         <div class="col-3"></div>
@@ -375,7 +376,7 @@
     </div>
     <div class="w-100">
       <h3>3 columns</h3>
-      <div class="row">
+      <div class="row-flex">
         <div class="col-4">3 col</div>
         <div class="col-4">3 col</div>
         <div class="col-4">3 col</div>
@@ -383,7 +384,7 @@
     </div>
     <div class="w-100">
       <h3>4 columns</h3>
-      <div class="row">
+      <div class="row-flex">
         <div class="col-4">4 col</div>
         <div class="col-4">4 col</div>
         <div class="col-2">2 col</div>
@@ -392,7 +393,7 @@
     </div>
     <div class="w-100">
       <h3>3 columns</h3>
-      <div class="row">
+      <div class="row-flex">
         <div class="col-5">5 col</div>
         <div class="col-4">4 col</div>
         <div class="col-2">2 col</div>
@@ -400,132 +401,130 @@
     </div>
     <div class="w-100">
       <h3>2 columns with offset</h3>
-      <div class="row">
+      <div class="row-flex">
         <div class="col-5">5 col</div>
         <div class="col-1 offset-sm-3">1 col with offset-3</div>
       </div>
     </div>
     <div class="w-100">
       <h3>2 columns justify-content: space-center</h3>
-      <div class="row justify-content-center">
+      <div class="row-flex justify-content-center">
         <div class="col-5">5 col</div>
         <div class="col-3">3 col</div>
       </div>
     </div>
     <div class="w-100">
       <h3>2 columns justify-content: space-between</h3>
-      <div class="row justify-content-between">
+      <div class="row-flex justify-content-between">
         <div class="col-5">5 col</div>
         <div class="col-1">1 col</div>
       </div>
     </div>
     <div class="w-100">
       <h3>2 columns justify-content: flex-end</h3>
-      <div class="row justify-content-end">
+      <div class="row-flex justify-content-end">
         <div class="col-5">5 col</div>
         <div class="col-1">1 col</div>
       </div>
     </div>
 </article>
-<pre>
-  <code class="language-markup">
-    <script type="prism-html-css">
-    <article id="grid">
-      <h2>Grid</h2>
-      <div class="w-100">
-        <h3>12 columns</h3>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-        </div>
+
+
+        <article id="grid">
+  <div class="w-100">
+    <h2>Grid: grid</h2>
+      <h3>12 elastic boxes</h3>
+      <div class="row-grid elastic">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+        <div class="box-7"></div>
+        <div class="box-8"></div>
+        <div class="box-9"></div>
+        <div class="box-10"></div>
+        <div class="box-11"></div>
+        <div class="box-12"></div>
       </div>
-      <div class="w-100">
-        <h3>6 columns</h3>
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-2"></div>
-          <div class="col-2"></div>
-          <div class="col-2"></div>
-          <div class="col-2"></div>
-          <div class="col-2"></div>
-        </div>
+    </div>
+    <div class="w-100">
+      <h3>12 boxes in 6 elastic columns</h3>
+      <div class="row-grid elastic-6columns">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+        <div class="box-7"></div>
+        <div class="box-8"></div>
+        <div class="box-9"></div>
+        <div class="box-10"></div>
+        <div class="box-11"></div>
+        <div class="box-12"></div>
       </div>
+    </div>
       <div class="w-100">
-        <h3>4 columns</h3>
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-3"></div>
-          <div class="col-3"></div>
-          <div class="col-3"></div>
-        </div>
+      <h3>12 boxes in 4 elastic columns</h3>
+      <div class="row-grid elastic-4columns">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+        <div class="box-7"></div>
+        <div class="box-8"></div>
+        <div class="box-9"></div>
+        <div class="box-10"></div>
+        <div class="box-11"></div>
+        <div class="box-12"></div>
       </div>
+    </div>
       <div class="w-100">
-        <h3>3 columns</h3>
-        <div class="row">
-          <div class="col-4">3 col</div>
-          <div class="col-4">3 col</div>
-          <div class="col-4">3 col</div>
-        </div>
+      <h3>12 boxes in 3 elastic columns</h3>
+      <div class="row-grid elastic-3columns">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+        <div class="box-7"></div>
+        <div class="box-8"></div>
+        <div class="box-9"></div>
+        <div class="box-10"></div>
+        <div class="box-11"></div>
+        <div class="box-12"></div>
       </div>
-      <div class="w-100">
-        <h3>4 columns</h3>
-        <div class="row">
-          <div class="col-4">4 col</div>
-          <div class="col-4">4 col</div>
-          <div class="col-2">2 col</div>
-          <div class="col-2">2 col</div>
-        </div>
+    </div>
+    <div class="w-100">
+      <h3>Z-index(box2) > Z-index(box1)  </h3>
+      <div class="row-grid zindex">
+        <div class="box-1z">One</div>
+        <div class="box-2z">Two</div>
+        <div class="box-3">Three</div>
+        <div class="box-4">Four</div>
+        <div class="box-5">Five</div>
+        <div class="box-6">Six</div>
+        <div class="box-7">Seven</div>
       </div>
-      <div class="w-100">
-        <h3>3 columns</h3>
-        <div class="row">
-          <div class="col-5">5 col</div>
-          <div class="col-4">4 col</div>
-          <div class="col-2">2 col</div>
-        </div>
+    </div>
+    <div class="w-100">
+      <h3>Gutters</h3>
+      <div class="row-grid gutters">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
       </div>
-      <div class="w-100">
-        <h3>2 columns with offset</h3>
-        <div class="row">
-          <div class="col-5">5 col</div>
-          <div class="col-1 offset-sm-3">1 col with offset-3</div>
-        </div>
-      </div>
-      <div class="w-100">
-        <h3>2 columns justify-content: space-center</h3>
-        <div class="row justify-content-center">
-          <div class="col-5">5 col</div>
-          <div class="col-3">3 col</div>
-        </div>
-      </div>
-      <div class="w-100">
-        <h3>2 columns justify-content: space-between</h3>
-        <div class="row justify-content-between">
-          <div class="col-5">5 col</div>
-          <div class="col-1">1 col</div>
-        </div>
-      </div>
-      <div class="w-100">
-        <h3>2 columns justify-content: flex-end</h3>
-        <div class="row justify-content-end">
-          <div class="col-5">5 col</div>
-          <div class="col-1">1 col</div>
-        </div>
-      </div>
-    </article>
-    </script>
-  </code>
-</pre>
+    </div>
+</article>
+
         <article id="avatar">
   <h2>Avatar</h2>
   <div>
@@ -793,6 +792,28 @@
       </script>
     </code>
   </pre>
+</article>
+        <article id='form'>
+	<h2>Form</h2>
+	<div class='content-wrapper'>
+		<form class='form'>
+			<p class='field required half'>
+	      <label class='label required' for='name'>Name</label>
+	      <input class='text-input' id='name' name='name' required type='text'>
+	    </p>
+	    <p class='field required half'>
+	      <label class='label' for='email'>E-mail</label>
+	      <input class='text-input' id='email' name='email' required type='email'>
+	    </p>
+	    <p class='field'>
+	      <label class='label' for='message'>Message</label>
+	      <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
+	    </p>
+	    <p class='field'>
+	      <input class='button' type='submit' value='Send message'>
+	    </p>
+		</form>
+	</div>
 </article>
         <article id="gallery">
   <h2>Gallery</h2>
