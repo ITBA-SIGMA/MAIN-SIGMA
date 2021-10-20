@@ -33,10 +33,25 @@
 	    -webkit-align-content: center;
 	    -ms-flex-line-pack: center;
 	    align-content: center;
-	}
+		}
   }
 }
 
 .grid {
 	display: grid;
+}
+
+@media (max-width: 992px) {
+	.masonry-container {
+		-webkit-column-count: 2;
+	  -moz-column-count: 2;
+	  column-count: 2;
+	}
+}
+@media (max-width: 420px) {
+	.masonry-container {
+		-webkit-column-count: 1;
+	  -moz-column-count: 1;
+	  column-count: 1;
+	}
 }
