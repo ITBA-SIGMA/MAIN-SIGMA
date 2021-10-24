@@ -1,17 +1,22 @@
 .left-sidebar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10px;
-  overflow: scroll;
-  height: 600px;
+  position: relative;
   &::-webkit-scrollbar-track {border-radius: 4px;}
 
   &::-webkit-scrollbar {width: 6px;}
 
   &::-webkit-scrollbar-thumb {border-radius: 4px;background: #C0C0C0;}
+  &.sticky {
+    ul {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 10px;
+      overflow: scroll;
+    }
+  }
   ul{
     border-right: 1px solid gray;
     padding: 20px;
+    height: 100vh;
     li {
       display: flex;
       align-items: center;

@@ -8,12 +8,12 @@
 })
 
 <body id="theme" class="light-theme">
-  @@include('components/page-blocks/header/_header.html')
-  @@include('components/page-blocks/mobileNav/_mobileNav.html')
-  <main class="main flex">
+  <div id="root">
+    @@include('components/page-blocks/header/_header.html')
+    @@include('components/page-blocks/mobileNav/_mobileNav.html')
     <div class="wrapper">
       @@include('components/page-blocks/left-menu/_nav.html')
-      <section>
+      <main class="main">
         @@include('components/page-blocks/hero/_hero.html')
         @@include('components/page-blocks/typography/_typography.html')
         @@include('components/page-blocks/blockquote/_blockquote.html')
@@ -29,10 +29,11 @@
         @@include('components/page-blocks/carousel/_carousel.html')
         @@include('components/page-blocks/modalGallery/_modalGallery.html')
         @@include('components/page-blocks/masonry/_masonry.html')
-      </section>
+      </main>
     </div>
-  </main>
-  @@include('components/page-blocks/footer/_footer.html')
-  @@include('components/page-blocks/_scripts.html')
+
+    @@include('components/page-blocks/footer/_footer.html')
+    @@include('components/page-blocks/_scripts.html')
+  </div>
 </body>
 </html>

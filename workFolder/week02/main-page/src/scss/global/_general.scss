@@ -1,11 +1,17 @@
-main {
-  .wrapper{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    margin: 0 auto;
+#root {
+  display: grid;
+  > .wrapper {
+    display: grid;
+    grid-template-columns: minmax(15%, 85%) minmax(85%,15%);
   }
+}
+
+.wrapper {
+  max-width: 1320px;
+  margin: auto;
+
+}
+main {
   nav {
     max-width: 200px;
     display: flex;
@@ -31,9 +37,3 @@ main {
   }
 }
 
-.content-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  >div{ width: 30%; }
-}

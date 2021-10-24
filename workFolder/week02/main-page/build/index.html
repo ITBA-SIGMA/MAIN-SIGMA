@@ -26,7 +26,9 @@
 
 
 <body id="theme" class="light-theme">
-  <header class="header" id="top">
+  <div id="root">
+    <header class="header" id="top">
+  <div class="wrapper">
     <div class="logo">
       <img src="img/IMG_1997.webp">
     </div>
@@ -54,8 +56,9 @@
         <img class="toogler" onclick="reStyle()" src="img/injan.webp" title="Switch style">
       </span>
 </div>
+  </div>
 </header>
-  <div class="mobSpace">
+    <div class="mobSpace">
     <button onclick="CollNav()">
         <img src="img/menu.webp">
     </button>
@@ -100,7 +103,6 @@
         <a href="#top"><img src="img/up-arrow.webp"></a>
     </button>
 </div>
-  <main class="main flex">
     <div class="wrapper">
       <nav class="left-sidebar">
   <ul>
@@ -122,7 +124,7 @@
   </ul>
 </nav>
 
-      <section>
+      <main class="main">
         <div id="hero" class="hero">
   <div class="wrapper">
     <h1>Hero block</h1>
@@ -770,7 +772,7 @@
 </article>
         <article id="list">
   <h2>List</h2>
-  <div class="content-wrapper">
+  <div class="row-grid elastic-3columns">
     <div>
       <h3>Unordered list default</h3>
       <hr>
@@ -1486,18 +1488,17 @@
       </code>
      </pre>
 </article>
-      </section>
+      </main>
     </div>
-  </main>
-  <div class="footer-basic">
-  <footer>
+
+    <footer class="footer-basic">
+  <div class="wrapper">
     <div class="social">
       <a class="icon" href="#"><img src="img/logo-facebook.svg"></a>
       <a class="icon" href="#"><img src="img/logo-twitter.svg"></a>
       <a class="icon" href="#"><img src="img/logo-linkedin.svg"></a>
       <a class="icon" href="#"><img src="img/logo-telegram.svg"></a>
       <a class="icon" href="#"><img src="img/logo-slack.svg"></a>
-      
     </div>
     <ul class="list-inline">
       <li class="list-inline-item"><a href="#">Home</a></li>
@@ -1507,11 +1508,12 @@
       <li class="list-inline-item"><a href="#">Terms</a></li>
     </ul>
     <p class="copyright">Зачаровано Sigma-squad © 2021</p>
- </footer>
-</div>
+  </div>
+</footer>
 
-  <script src="js/libs.min.js"></script>
+    <script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 <script src="js/prism.js"></script>
+  </div>
 </body>
 </html>

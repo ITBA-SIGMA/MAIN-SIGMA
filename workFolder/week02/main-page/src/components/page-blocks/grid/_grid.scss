@@ -1,68 +1,64 @@
-#grid {
-  h2, h3 {
-    text-align: center;
+
+.row-grid {
+  [class^="box-"] {
+    height: 50px;
+    border: 1px solid;
+    position: relative;
+    
   }
-  .row-grid {
-    [class^="box-"] {
-      height: 50px;
-      border: 1px solid;
-      position: relative;
-      
-    }
-    @for $i from 1 through 12 {
-      [class^="box-"]:nth-child(3n + #{$i}) {
-        background-color: lighten(gray, $i * 5%);
-      }
+  @for $i from 1 through 12 {
+    [class^="box-"]:nth-child(3n + #{$i}) {
+      background-color: lighten(gray, $i * 5%);
     }
   }
-  
-  .elastic {
-    width: 100%;
-    display: grid;
-    grid-template-columns:  repeat(12, 1fr) ;
+}
+
+.elastic {
+  width: 100%;
+  display: grid;
+  grid-template-columns:  repeat(12, 1fr) ;
+}
+
+.elastic-6columns {
+  width: 100%;
+  display: grid;
+  grid-template-columns:  repeat(6, 1fr) ;
+}
+
+.elastic-4columns {
+  width: 100%;
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr) ;
+}
+
+.elastic-3columns {
+  width: 100%;
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr) ;
+}
+
+.zindex {
+  width: 100%;
+  display: grid;
+  padding-bottom:  50px ;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 25px;
+  .box-1z{
+      text-align: center;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end:3;
   }
-  
-  .elastic-6columns {
-    width: 100%;
-    display: grid;
-    grid-template-columns:  repeat(6, 1fr) ;
+  .box-2z {
+      grid-column-start: 1;
+      grid-row-start: 2;
+      grid-row-end: 4;
   }
-  
-  .elastic-4columns {
-    width: 100%;
-    display: grid;
-    grid-template-columns:  repeat(4, 1fr) ;
-  }
-  
-  .elastic-3columns {
-    width: 100%;
-    display: grid;
-    grid-template-columns:  repeat(3, 1fr) ;
-  }
-  
- .zindex {
-    width: 100%;
-    display: grid;
-    padding-bottom:  50px ;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 25px;
-    .box-1z{
-        text-align: center;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end:3;
-    }
-    .box-2z {
-        grid-column-start: 1;
-        grid-row-start: 2;
-        grid-row-end: 4;
-    }
-  }
-  .gutters {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
-  }
+}
+.gutters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
 }
