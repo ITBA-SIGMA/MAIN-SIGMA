@@ -1,4 +1,4 @@
 function reStyle() {
-  var element = document.body;
-  element.classList.toggle("dark-theme");
+  var body = document.body;
+  body.classList.toggle("dark-theme");
 }

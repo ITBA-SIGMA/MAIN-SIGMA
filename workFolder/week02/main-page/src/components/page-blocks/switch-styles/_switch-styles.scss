@@ -1,23 +1,17 @@
 .switchWrapper {
-            span {
-                margin: 10px;
-                color: $white-color;
-                &:hover{
-                    text-decoration: underline;    
-                    color: $link-default-hover-color; 
-                    cursor: pointer;
-                }
-                img {
-                    width: 20px;
-                    max-width: 100%;
-                    border-radius: 10px;
-                }
-                .toogler:hover {
-                    box-shadow: 0 0 50px rgb(240, 245, 244);
-                }
-            }
-            &:nth-child(2n){
-                border-left: 1px solid $border-color;
-            }
-   
+  button {
+    margin: 10px;
+    background: none;
+    border: none;
+    &:hover{
+      text-decoration: underline;    
+      color: $link-default-hover-color; 
+      cursor: pointer;
+    }
+    img {
+      width: 20px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  }
 }   
