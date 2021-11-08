@@ -1,0 +1,21 @@
+{
+  "name": "foundation",
+  "description": "HTML5+CSS3 template for easy start website project'",
+  "main": "gulpfile.js",
+  "authors": [
+    "mbuhel <bugelmax@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ITBA-SIGMA/MAIN-SIGMA",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "foundation": "^5.5.3"
+  }
+}

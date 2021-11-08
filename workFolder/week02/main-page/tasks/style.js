@@ -12,7 +12,7 @@ const bs = require('browser-sync');
 const multiDest = require('gulp-multi-dest');
 
 module.exports = function style() {
-  return src('src/scss/**/*.scss')
+  return src('src/scss/style.scss')
     .pipe(map.init())
     .pipe(bulk())
     .pipe(sass({
