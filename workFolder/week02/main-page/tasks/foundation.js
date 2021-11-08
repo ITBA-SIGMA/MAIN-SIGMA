@@ -11,7 +11,7 @@ const map = require('gulp-sourcemaps');
 const bs = require('browser-sync');
 const multiDest = require('gulp-multi-dest');
 
-module.exports = function style() {
+module.exports = function foundation() {
   return src('src/scss/foundation.scss')
     .pipe(map.init())
     .pipe(bulk())

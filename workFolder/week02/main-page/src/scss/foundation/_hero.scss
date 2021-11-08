@@ -1,0 +1,24 @@
+$hero-height: 60vh;
+
+.hero-section {
+  background: url('./../img/foundation/main-bg.webp') 50% no-repeat;
+  background-size: cover;
+  height: $hero-height;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .hero-section-text {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+  }
+  figure {
+  	position: absolute;
+  	bottom: -50px;
+  	left: 0;
+  	width: 200px;
+  	height: 200px;
+  }
+}
