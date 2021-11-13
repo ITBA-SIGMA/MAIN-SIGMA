@@ -5,7 +5,7 @@ body { font-family: sans-serif; }
 /* ---- grid ---- */
 
 .grid {
-  max-width:960px;
+  max-width:980px;
 }
 
 /* clearfix */
@@ -20,9 +20,6 @@ body { font-family: sans-serif; }
 .grid-item {
   width: 260px;
   height: 180px;
-  margin: 5px;
-
-
 }
 
 .grid-item--width2 { width: 520px; }
@@ -32,3 +29,4 @@ body { font-family: sans-serif; }
 .grid-item--height2 { height: 260px; }
 .grid-item--height3 { height: 400px; }
 .grid-item--height4 { height: 520px; }
+
