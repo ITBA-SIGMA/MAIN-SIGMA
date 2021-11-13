@@ -1,0 +1,34 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  max-width:960px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 260px;
+  height: 180px;
+  margin: 5px;
+
+
+}
+
+.grid-item--width2 { width: 520px; }
+.grid-item--width3 { width: 760px; }
+.grid-item--width4 { width: 880px; }
+
+.grid-item--height2 { height: 260px; }
+.grid-item--height3 { height: 400px; }
+.grid-item--height4 { height: 520px; }
