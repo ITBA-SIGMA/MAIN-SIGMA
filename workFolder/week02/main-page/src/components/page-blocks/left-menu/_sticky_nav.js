@@ -1,12 +1,15 @@
-// window.onscroll = function() {myFunction()};
+var body = document.querySelector('body');
+if (body.id == 'theme') {
+	window.onscroll = function() {myFunction()};
 
-// var nav = document.getElementsByClassName("left-sidebar")[0];
-// var sticky = nav.offsetTop;
+	var nav = document.getElementsByClassName("left-sidebar")[0];
+	var sticky = nav.offsetTop;
 
-// function myFunction() {
-// 	if (window.pageYOffset > sticky) {
-// 	  nav.classList.add("sticky");
-// 	} else {
-// 	  nav.classList.remove("sticky");
-// 	}
-// }
+	function myFunction() {
+		if (window.pageYOffset > sticky) {
+		  nav.classList.add("sticky");
+		} else {
+		  nav.classList.remove("sticky");
+		}
+	}
+}
