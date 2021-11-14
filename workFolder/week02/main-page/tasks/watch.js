@@ -8,6 +8,7 @@ module.exports = function watching() {
   watch('src/**/*.html', parallel('html'));
   watch('src/**/*.php', parallel('php'));
   watch('src/**/*.scss', parallel('style'));
+  watch('src/**/*.scss', parallel('foundation'));
   watch('src/**/*.js', parallel('dev_js'));
   watch('src/**/*.json', parallel('html'));
   watch('src/img/**/*.+(svg|ico)', parallel('rastr'));

@@ -1,14 +1,15 @@
-const plugins = [];
+const plugins     = ['src/bower/jquery/dist/jquery.min.js', 'src/bower/foundation/js/foundation.min.js'];
 const {
   src,
   dest
-} = require('gulp');
-const uglify = require('gulp-uglify-es').default;
-const concat = require('gulp-concat');
-const map = require('gulp-sourcemaps');
-const chalk = require('chalk');
-const multiDest = require('gulp-multi-dest');
-module.exports = function libs_js(done) {
+}                 = require('gulp');
+const uglify      = require('gulp-uglify-es').default;
+const concat      = require('gulp-concat');
+const map         = require('gulp-sourcemaps');
+const chalk       = require('chalk');
+const multiDest   = require('gulp-multi-dest');
+
+module.exports    = function libs_js(done) {
   if (plugins.length > 0)
     return src(plugins)
       .pipe(map.init())
