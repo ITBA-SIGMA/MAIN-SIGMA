@@ -1,24 +1,59 @@
-$hero-height: 60vh;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600&display=swap');
+$montserrat: 'Montserrat', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$hero-height: 80vh;
 
 .hero-section {
-  background: url('./../img/foundation/main-bg.webp') 50% no-repeat;
-  background-size: cover;
   height: $hero-height;
-  text-align: center;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   position: relative;
-
-  .hero-section-text {
-    color: #fff;
-    text-shadow: 1px 1px 2px #000;
+  max-width: 1320px;
+  margin: 50px auto;
+  font-family: $open-sans;
+  &:after {
+    content: '';
+    opacity: .3;
+    background: url('./../img/foundation/main-bg.webp') 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  &--text {
+    color: #000;
+    width: 100%;
+    text-align: center;
+  }
+  &--description {
   }
   figure {
-  	position: absolute;
-  	bottom: -50px;
-  	left: 0;
-  	width: 200px;
-  	height: 200px;
+  }
+  h1, h3, button {
+    text-transform: uppercase;
+    font-family: $montserrat;
+  }
+  h1 {
+    border: 5px solid;
+    display: inline-block;
+    padding: 10px 50px;
+    position: relative;
+    font-size: 48px;
+    &:after {
+      content: "we're";
+      text-transform: uppercase;
+      position: absolute;
+      top: -30px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      font-size: 18px;
+      background: aquamarine;
+      width: 100px;
+    };
   }
 }
