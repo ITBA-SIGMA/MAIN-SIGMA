@@ -1,3 +1,12 @@
-@import 'foundation/_hero';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600&display=swap');
+$montserrat: 'Montserrat', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$hero-height: 80vh;
+
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons.scss';
 @import 'foundation/_bootstrap';
+
+@import 'foundation/_general';
+@import 'foundation/_hero';
 @import 'foundation/_portfolio';
+@import 'foundation/_footer';

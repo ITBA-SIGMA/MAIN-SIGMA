@@ -1,27 +1,18 @@
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
 /* ---- grid ---- */
-
 .grid {
   max-width:980px;
 }
-
 /* clearfix */
 .grid:after {
   content: '';
   display: block;
   clear: both;
 }
-
 /* ---- grid-item ---- */
-
 .grid-item {
   width: 260px;
   height: 180px;
 }
-
 .grid-item--width2 { width: 520px; }
 .grid-item--width3 { width: 760px; }
 .grid-item--width4 { width: 880px; }

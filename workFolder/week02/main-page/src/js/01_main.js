@@ -4,7 +4,7 @@ $(function() {
         $(this).toggleClass('active');
     });
     showCategory(categoryList, categoryContent);
-
+    masonry();
 });
 
 const categoryList = $('.category span');
@@ -12,7 +12,9 @@ const categoryContent = $('.category-content .grid-item');
 
 function showCategory (categoryList, categoryContent){
 	categoryList.on('click', function(e){
-    const currentCategory = e.target.className;
+		$(categoryList).removeClass('active');
+		$(this).addClass('active');
+    	const currentCategory = e.target.className;
 	    categoryContent.each(function(){
 	    	if(currentCategory === 'all'){
 	    		$(categoryContent).show();
@@ -21,7 +23,7 @@ function showCategory (categoryList, categoryContent){
 	    	} else {
 	    		$(this).hide();
 	    	}
-		})
+		});
 		masonry();
 	});
 }
