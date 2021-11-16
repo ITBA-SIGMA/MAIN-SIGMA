@@ -14,13 +14,17 @@ function showCategory (categoryList, categoryContent){
 	categoryList.on('click', function(e){
 		$(categoryList).removeClass('active');
 		$(this).addClass('active');
-    	const currentCategory = e.target.className;
-	    categoryContent.each(function(){
-	    	if(currentCategory === 'all'){
+
+    const currentCategory = e.target.getAttribute('data-portfolio');
+
+    categoryContent.each(function(){
+    	console.log($(this).attr('data-portfolio'))
+	    	if(currentCategory == 'all'){
 	    		$(categoryContent).show();
-	    	} else if($(this).hasClass(currentCategory)){
+	    	} else if($(this).attr('data-portfolio') == currentCategory){
 	    		$(this).show();
 	    	} else {
+	    		console.log('3', currentCategory);
 	    		$(this).hide();
 	    	}
 		});
@@ -30,7 +34,6 @@ function showCategory (categoryList, categoryContent){
 
 function masonry() {
 	$('.category-content').masonry({
-	  // options
 	  itemSelector: '.grid-item',
 	  columnWidth: 280
 	});

@@ -10,6 +10,7 @@
       <link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon">
       <!-- <link rel="stylesheet"
         href="css/libs.min.css"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.0/font/bootstrap-icons.min.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
             integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
       <link rel="stylesheet" href="css/foundation.min.css">
@@ -62,7 +63,7 @@
             <div class="col-lg-8">
                 <div class="row gx-5 row-cols-1 row-cols-md-2">
                     <div class="col mb-5 h-100">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                        <div class="mb-3"><i class="bi bi-collection"></i></div>
                         <h2 class="h5">UNLIMITED OPTIONS</h2>
                         <ul>
                             <li>BRANDING</li>
@@ -72,7 +73,7 @@
                         </ul>
                     </div>
                     <div class="col mb-5 h-100">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                        <div class="mb-3"><i class="bi bi-building"></i></div>
                         <h2 class="h5">DESIGN & DEVELOPMENT</h2>
                         <ul>
                             <li>INFORMATION ARCHITECTURE</li>
@@ -82,7 +83,7 @@
                         </ul>
                     </div>
                     <div class="col mb-5 mb-md-0 h-100">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                        <div class="mb-3"><i class="bi bi-toggles2"></i></div>
                         <h2 class="h5">E-COMMERCE</h2>
                         <ul>
                             <li>PROTOTYPING</li>
@@ -92,7 +93,7 @@
                         </ul>
                     </div>
                     <div class="col h-100">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                        <div class="mb-3"><i class="bi bi-toggles2"></i></div>
                         <h2 class="h5">CUSTOMIZABLE DESIGN</h2>
                         <ul>
                             <li>INFORMATION ARCHITECTURE</li>
@@ -117,42 +118,42 @@
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti amet voluptates ullam quasi dolores quibusdam vel in natus itaque ea corporis officiis illo necessitatibus, facere quaerat tempore cupiditate explicabo assumenda?</p>
          </div>
          <div class="col-lg-3 mb-5 mb-lg-0">
-            <h3>CHOOSE<br>CATEGORY</h3>
+            <p class="category-title">CHOOSE<br>CATEGORY</p>
             <ul class="category">
-               <li><span class="all">ALL</span></li>
-               <li><span class="webdesign">WEBDESIGN</span></li>
-               <li><span class="graphic">GRAPHIC DESIGN</span></li>
-               <li><span class="fashion">FASHION</span></li>
-               <li><span class="design">LOGO DESIGN</span></li>
-               <li><span class="advertising">ADVERTISING</span></li>
+               <li><span class="active" data-portfolio="all">ALL</span></li>
+               <li><span class="" data-portfolio="webdesign">WEBDESIGN</span></li>
+               <li><span class="" data-portfolio="graphic">GRAPHIC DESIGN</span></li>
+               <li><span class="" data-portfolio="fashion">FASHION</span></li>
+               <li><span class="" data-portfolio="design">LOGO DESIGN</span></li>
+               <li><span class="" data-portfolio="advertising">ADVERTISING</span></li>
             </ul>
          </div>
          <div class="col-lg-9 category-content">
-            <div class="grid-item webdesign">
+            <div data-portfolio="webdesign" class="grid-item">
                <figure><img src="img/foundation/1.webp" alt=""></figure>
             </div>
-            <div class="grid-item graphic">
+            <div data-portfolio="graphic" class="grid-item">
                <figure><img src="img/foundation/2.webp" alt=""></figure>
             </div>
-            <div class="grid-item grid-item--height3 fashion">
+            <div data-portfolio="fashion" class="grid-item grid-item--height3">
                <figure><img src="img/foundation/3.webp" alt=""></figure>
             </div>
-            <div class="grid-item grid-item--height2 design">
+            <div data-portfolio="design" class="grid-item grid-item--height2">
                <figure><img src="img/foundation/4.webp" alt=""></figure>
             </div>
-            <div class="grid-item grid-item--height3 webdesign">
+            <div data-portfolio="webdesign" class="grid-item grid-item--height3">
                <figure><img src="img/foundation/5.webp" alt=""></figure>
             </div>
-            <div class="grid-item webdesign" >
+            <div data-portfolio="webdesign" class="grid-item" >
                <figure><img src="img/foundation/6.webp" alt=""></figure>
             </div>
-            <div class="grid-item grid-item--height3 advertising">
+            <div data-portfolio="fashion" class="grid-item grid-item--height3">
                <figure><img src="img/foundation/7.webp" alt=""></figure>
             </div>
-            <div  class="grid-item grid-item--height2 fashion">
+            <div data-portfolio="advertising"  class="grid-item grid-item--height2">
                <figure><img src="img/foundation/8.webp" alt=""></figure>
             </div>
-            <div class="grid-item advertising" >
+            <div data-portfolio="advertising" class="grid-item" >
                <figure><img src="img/foundation/9.webp" alt=""></figure>
             </div>
          </div>
