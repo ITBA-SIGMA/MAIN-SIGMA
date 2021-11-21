@@ -10,6 +10,7 @@ module.exports = function watching() {
   watch('src/**/*.scss', parallel('style'));
   watch('src/**/*.scss', parallel('custom'));
   watch('src/**/*.scss', parallel('foundation'));
+  watch('src/**/*.scss', parallel('bootstrap'));
   watch('src/**/*.js', parallel('dev_js'));
   watch('src/**/*.json', parallel('html'));
   watch('src/img/**/*.+(svg|ico)', parallel('rastr'));
