@@ -7,6 +7,7 @@ exports.svg_css = tasks.svg_css;
 exports.fonts = tasks.fonts;
 exports.style = tasks.style;
 exports.foundation = tasks.foundation;
+exports.custom = tasks.custom;
 exports.build_js = tasks.build_js;
 exports.libs_js = tasks.libs_js;
 exports.dev_js = tasks.dev_js;
@@ -30,6 +31,7 @@ exports.default = gulp.parallel(
   exports.fonts,
   exports.style,
   exports.foundation,
+  exports.custom,
   exports.libs_js,
   exports.dev_js,
   exports.rastr,
@@ -47,6 +49,7 @@ exports.dev_php = gulp.parallel(
   exports.fonts,
   exports.style,
   exports.foundation,
+  exports.custom,
   exports.libs_js,
   exports.dev_js,
   exports.rastr,

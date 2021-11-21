@@ -1,31 +1,35 @@
 .hero-section {
-  height: $hero-height;
+  height: 100vh;
   position: relative;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 50px 1fr 1fr;
   grid-gap: 50px 0;
   font-family: $open-sans;
+  font-size: 10px;
   &:after {
     content: '';
     opacity: .3;
-    background: url('./../img/foundation/main-bg.webp') 50% no-repeat;
+    background: url('./../img/foundation/main-bg.webp') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     position: absolute;
     left: 0;
     top: 0;
+    z-index: -1;
+
   }
   .main-menu {
     grid-column: 1/-1;
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: .6em 3em;
     align-items: center;
     position: relative;
     a {
       text-decoration: none;
+      font-size: 1.8em;
     }
     .menu {
       display: none;
@@ -42,8 +46,8 @@
         flex-direction: column;
       }
       a {
-        padding: 10px;
-        border-bottom: 2px solid #000;
+        padding: .5em;
+        border-bottom: .1em solid #000;
         text-align: center;
         transform: all .2s;
         &:hover {
@@ -80,9 +84,9 @@
   h1 {
     border: 5px solid;
     display: inline-block;
-    padding: 10px 50px;
+    padding: .5em 1em;
     position: relative;
-    font-size: 48px;
+    font-size: 4.8em;
     &:after {
       content: "we're";
       text-transform: uppercase;
@@ -95,6 +99,12 @@
       background: aquamarine;
       width: 100px;
     };
+  }
+  h3 {
+    font-size: 2.8em;
+  }
+  p {
+    font-size: 1.8em;
   }
 }
 
@@ -177,4 +187,14 @@ h3 {
     top: 15px;
     left: 0;
   }
+}
+
+
+@media screen and (max-width: 995px), 
+       screen and (max-height: 700px) {
+        .hero-section {
+          h1 {
+            font-size: 2em;
+          }
+        }
 }
