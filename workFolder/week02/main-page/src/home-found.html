@@ -14,47 +14,461 @@
 <body>
 	<contant>
 		<sidebar>
-			<div class="cell small-4">
+			<div class="cell small-4 flex-center">
 				<img class="thumbnail" src="img/home-found/logo.png" alt="logo" style="box-shadow: none;">
 			</div>
-			<h4>Main Menu</h4>
-			<ul class="vertical menu">
-				<li><a href="#">One</a></li>
-				<li><a href="#">Two</a></li>
-				<li><a href="#">Three</a></li>
-				<li><a href="#">Four</a></li>
+			<h4 class="flex-left">Main Menu</h4>
+			<ul class="vertical menu dash">
+				<li><a href="#"><img class="thumbnail" src="img/home-found/dash.webp" alt="Dashboard"
+							style="box-shadow: none;" />Dashboard</a></li>
+				<li><a href="#"><img class="thumbnail" src="img/home-found/stat.webp" alt="stat"
+							style="box-shadow: none;" />Workout Statistic</a></li>
+				<li><a href="#"><img class="thumbnail" src="img/home-found/tascks.webp" alt="tasks"
+							style="box-shadow: none;" />Workout Plan<i class="fas fa-chevron-right"></i></a></li>
+				<li><a href="#"><img class="thumbnail" src="img/home-found/flash.webp" alt="flash"
+							style="box-shadow: none;" />Distance Map</a></li>
+				<li><a href="#"><img class="thumbnail" src="img/home-found/foodmenu.webp" alt="food"
+							style="box-shadow: none;" />Diet Food Menu<i class="fas fa-chevron-right"></i></a></li>
+				<li><a href="#"><img class="thumbnail" src="img/home-found/pers-rec.webp" alt="rec"
+							style="box-shadow: none;" />Personal Record</a></li>
 			</ul>
+			<div class="calendar">
+				<img class="thumbnail" src="img/home-found/calendar.webp" alt="calendar" style="box-shadow: none;" />
+				<h6>Create Workout Plan Now</h6>
+			</div>
+			<div class="author">
+				<p>Gymove Fitness Admin Dashboard © 2020 All Rights Reserved</p>
+				<p>Made with ♥ by Peterdraw</p>
+			</div>
 		</sidebar>
 		<container>
 			<header>
 				<div class="top-bar" style="background: none;">
 					<div class="top-bar" style="width: 100%; background: none;">
-						<div class="lines">
-							<span></span>
-							<span></span>
-							<span></span>
+						<div class="lines-text">
+							<div class="lines">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<h4 class="menu-text">Personal Record</h4>
 						</div>
-						<h4 class="menu-text">Personal Record</h4>
 						<div class="search">
 							<img src="img/home-found/search.webp" alt="search" style="box-shadow: none;">
-							<input type="search" placeholder="Find something here..." style="width: 100%; border: none; outline: none;">
+							<input type="search" placeholder="Find something here..."
+								style="width: 100%; border: none; outline: none;">
 						</div>
-						<div class="icons-top"><img src="img/home-found/bell.webp" alt="bell"/></div>
-						<div class="icons-top"><img src="img/home-found/chat.webp" alt="chat"/></div>
-						<div class="icons-top"><img src="img/home-found/bonus.webp" alt="bonus"/></div>
+						<div class="icons">
+							<div class="icons-top"><img src="img/home-found/bell.webp" alt="bell" /></div>
+							<div class="icons-top"><img src="img/home-found/chat.webp" alt="chat" /></div>
+							<div class="icons-top"><img src="img/home-found/bonus.webp" alt="bonus" /></div>
+						</div>
 						<div class="avatar">
 							<span></span>
 							<div class="avatar-text">
 								<h6>Peter Parkur</h6>
 								<p>Super Admin</p>
 							</div>
-							<i class="fas fa-chevron-down" style="color: #D3D6E4;"></i>
+							<i class="fas fa-chevron-down" style="color: #D3D6E4; margin-left: 20px;"></i>
 						</div>
 					</div>
 				</div>
 			</header>
 			<main>
-
+				<div class="pick-milk">
+					<div class="pick-milk">
+						<img class="thumbnail" src="img/home-found/pic-milk.webp" alt="pic-milk"
+							style="box-shadow: none;" />
+						<div>
+							<h5>Generate your workout report for now</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+								ut
+								labore et dolore</p>
+						</div>
+					</div>
+					<form action="">
+						<input type="date" name="trip-start" value="2018-05-28" />
+						<div class="defiz">
+							<span></span>
+						</div>
+						<input type="date" name="trip-end" value="2018-06-28" />
+						<button>Generate Report<i class="fas fa-chevron-right"></i></button>
+					</form>
+				</div>
+				<div class="tables">
+					<div class="table">
+						<table>
+							<div class="table-head">
+								<div class="table-img">
+									<img class="thumbnail" src="img/home-found/run.webp" alt="run"
+										style="box-shadow: none;" />
+								</div>
+								<div class="thead-text-button">
+									<h5>Running</h5>
+									<button>Newest<i class="fas fa-chevron-down"></i></button>
+								</div>
+							</div>
+							<thead>
+								<tr>
+									<th>Date</th>
+									<th>Distance</th>
+									<th>Time</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<p>Sunday</p>
+										<p>September 2, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Monday</p>
+										<p>September 3, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Tuesday</p>
+										<p>September 4, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Wednesday</p>
+										<p>September 5, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Thursday</p>
+										<p>September 6, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Friday</p>
+										<p>September 7, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Saturday</p>
+										<p>September 8, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Sunday</p>
+										<p>September 9, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="table">
+						<table>
+							<div class="table-head">
+								<div class="table-img" style="background-color: #FF3282;">
+									<img class="thumbnail" src="img/home-found/cicle.webp" alt="run"
+										style="box-shadow: none;" />
+								</div>
+								<div class="thead-text-button">
+									<h5>Cycling</h5>
+									<button>Newest<i class="fas fa-chevron-down"></i></button>
+								</div>
+							</div>
+							<thead>
+								<tr>
+									<th>Date</th>
+									<th>Distance</th>
+									<th>Time</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<p>Sunday</p>
+										<p>September 2, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Monday</p>
+										<p>September 3, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Tuesday</p>
+										<p>September 4, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Wednesday</p>
+										<p>September 5, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Thursday</p>
+										<p>September 6, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Friday</p>
+										<p>September 7, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Saturday</p>
+										<p>September 8, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Sunday</p>
+										<p>September 9, 2020</p>
+									</td>
+									<td>
+										<p>14,2 Km</p>
+										<p>Target 15Km</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="table">
+						<table>
+							<div class="table-head">
+								<div class="table-img" style="background-color: #FFBC11;">
+									<img class="thumbnail" src="img/home-found/yoga.webp" alt="run"
+										style="box-shadow: none;" />
+								</div>
+								<div class="thead-text-button">
+									<h5>Yoga</h5>
+									<button>Newest<i class="fas fa-chevron-down"></i></button>
+								</div>
+							</div>
+							<thead>
+								<tr>
+									<th>Date</th>
+									<th>Time</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<p>Sunday</p>
+										<p>September 2, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Monday</p>
+										<p>September 3, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Tuesday</p>
+										<p>September 4, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Wednesday</p>
+										<p>September 5, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Thursday</p>
+										<p>September 6, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Friday</p>
+										<p>September 7, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Saturday</p>
+										<p>September 8, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p>Sunday</p>
+										<p>September 9, 2020</p>
+									</td>
+									<td>
+										<p>00:53:22”</p>
+										<p>Target 40mins</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
 			</main>
 		</container>
 	</contant>
